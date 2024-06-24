@@ -1,0 +1,58 @@
+Anggota
+POST : 
+http://localhost/2TI04/API/backend/anggota/agt_post.php
+http://localhost/2TI04/API/backend/anggota/update_agt.php
+GET : 
+http://localhost/2TI04/API/backend/anggota/show_agt.php
+http://localhost/2TI04/API/backend/anggota/find_agt.php
+http://localhost/2TI04/API/backend/anggota/delete_agt.php
+
+	-nama : text
+	-alamat : text
+	-no_telp : text
+	-email : text
+	-status : text
+Buku
+POST : 
+http://localhost/2TI04/API/backend/buku/buku_post.php
+http://localhost/2TI04/API/backend/buku/update_buku.php
+GET : 
+http://localhost/2TI04/API/backend/buku/show_buku.php
+http://localhost/2TI04/API/backend/buku/find_buku.php
+http://localhost/2TI04/API/backend/buku/delete_buku.php
+
+	-jdl_buku : text
+	-genre : text
+	-deskripsi : text
+	-penerbit : text
+	-tahun_terbit : text
+	-status : text
+Peminjaman
+POST : 
+http://localhost/2TI04/API/backend/Peminjaman/pinjam_post.php
+http://localhost/2TI04/API/backend/Peminjaman/update_pinjam.php
+GET : 
+http://localhost/2TI04/API/backend/Peminjaman/show_pinjam.php
+http://localhost/2TI04/API/backend/Peminjaman/find_pinjam.php
+http://localhost/2TI04/API/backend/Peminjaman/delete_pinjam.php
+
+	-id_buku : text
+	-id_anggota : text
+	-tgl_pinjam : text
+	-periode_pinjam : text
+	-status : text
+Staff
+POST : 
+http://localhost/2TI04/API/backend/staff/staff_post.php
+http://localhost/2TI04/API/backend/staff/update_staff.php
+GET : 
+http://localhost/2TI04/API/backend/staff/show_staff.php
+http://localhost/2TI04/API/backend/staff/find_staff.php
+http://localhost/2TI04/API/backend/staff/delete_staff.php
+
+	-nama : text
+	-alamat : text
+	-no_telp : text
+	-email : text
+	-jabatan : text
+	-password : text
